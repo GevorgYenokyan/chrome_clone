@@ -11,6 +11,7 @@ const [childe2, setchilde2] = useState(true)
 const [childe3, setchilde3] = useState(true)
 const [childe4, setchilde4] = useState(true)
 
+
     return(<div>
            <div className="footer_div">
              <div className="footer_div_childe">
