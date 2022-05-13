@@ -1,0 +1,389 @@
+.nav{
+    position: fixed;
+    z-index: 5000;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 6px 0 rgb(32 33 37 / 10%);
+   
+          
+}
+
+
+.nav_false{
+    position: fixed;
+    z-index: 5000;
+    background-color: #fff;
+    width: 70%;
+    height: 80px;
+    display: flex;
+    align-items: center; 
+}
+.nav_item{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: right;
+    width: 65%;
+    transition: 1s;
+    background-color: #fff;
+
+}
+
+.nav_list_false{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    transition: 1s;
+    background-color: #fff;
+    
+
+}
+
+
+
+
+.img_google{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 10px;
+    align-items: center;
+}
+
+
+.dropbtn {
+    color: rgb(10, 10, 10);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 6000;
+    background-color: #fff;
+    border: solid 0.5px rgb(32 33 37 / 10%);
+    box-shadow: 0px 10px 13px -7px #000000, -1px 4px 14px 3px rgba(0,0,0,0);
+    
+}
+
+.dropdown-content_false{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 6000;
+    background-color: #fff;
+    border: solid 0.5px rgb(32 33 37 / 10%);
+    box-shadow: 0px 10px 13px -7px #000000, -1px 4px 14px 3px rgba(0,0,0,0);
+}
+
+
+.dropdown:hover .dropdown-content_false {
+    display: block;
+}
+
+.dropdown-content_false a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    text-align: left; 
+    color: #3b3a3a;
+    
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    text-align: left;
+    color: #3b3a3a;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #fff;
+    }
+
+.dropdown-content a:hover {
+       color: #141414;
+    }
+
+
+.chrombtn_nav{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: 500;
+    height: 46px;
+    outline: none;
+    padding: 0 24px;
+    margin:0% auto ;
+    background-color: #1967d2;
+    
+}
+.none{
+    display: none;
+}
+
+.close{
+    display: none;
+}
+
+
+.menu_icon_btn{
+    font-size: 20px;
+    align-items: center;
+    transition: 1s;
+}
+
+.flex_menu{
+    display: flex;
+    transition: 500ms;
+
+   
+}
+
+
+.close_false{
+    position: absolute;
+    right: 60px;
+    top: 15px;
+    
+}
+
+
+.nav_false{
+    position: fixed;
+    z-index: 5000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+    
+}
+
+.dropdown-content_div{
+    display: none;
+}
+
+
+@media(max-width:1020px){
+	.nav{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        text-align: start;
+        height: 70px;
+        width: 100%;
+        box-shadow: none;      
+        background-color: #fff;    
+    }
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+   
+    .dropdown-content a{
+       align-items: flex-start;
+       padding: 0px;
+       margin: 15px 0px;
+       background: transparent;
+    }
+    .dropdown-content_div{
+        display: block;
+    }
+
+
+    .dropdown-content_false{
+        display: block;
+        align-items: flex-start;
+        text-align: start;
+        position: relative;
+        background: transparent;
+        border-left: #9b9696 1px solid;
+        box-shadow: none ;
+    }
+    
+
+    .dropdown-content{
+        align-items: flex-start;
+        text-align: start;
+        position: relative;
+        background-color: #fff;
+        border: none;
+        box-shadow: none ;
+       
+    }
+
+    .nav_false{
+        position: fixed;
+        z-index: 5000;
+        width: 100%;
+        align-items: flex-start;
+        text-align: start;
+        text-align: start;
+        flex-direction: column;
+        transition: 200ms;  
+        background: linear-gradient(90deg, #fff 73%, rgba(30, 30, 31, 0.4) 73%);   
+       
+    }
+
+    .nav_false .chrombtn_nav{
+        position: fixed;
+        bottom: 20px;
+        left: -160px;
+        width: 50%;
+    }
+    
+   .chrombtn_nav{
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    margin-top: 5px;
+}
+
+
+     .close{
+         display: block;
+         margin-left: 20px;
+     }
+
+     .flex_menu{
+         border-bottom: 1px solid rgb(143, 142, 142);
+         width: 100%;
+         padding: 15px;
+         transition: 1s;
+     }
+
+
+     .nav_list{
+         display: none;
+         height: 100%;
+         width: 0%;
+         position: absolute;
+         left: -1000px;
+         top: 80px;
+         transition: 1s;
+         height: 100%;
+         
+     }
+
+     .dropdown{
+         display: flex;
+         align-items: flex-start;
+         flex-direction: column;
+         background: transparent;
+     }
+
+     .nav_list_false{
+         flex-direction: column;
+         align-items: flex-start;
+         width: 100%;
+         background: transparent;
+         transform: 1s;
+         height: 100%;
+               
+     }
+
+
+    
+    
+
+     .nav_item{
+         margin: 15px 0px;
+         text-align: start;
+         width: 100%;
+        
+
+     }
+
+     .nav_item:active{
+        border: 2px solid #1C6EA4;
+        border-radius: 0px 22px 29px 0px;
+        padding-right: 100px;
+     
+        
+     }
+
+     .dropbtn{
+         padding: 0px;
+     }
+
+     .img_google{
+         margin-left: 25px;
+         padding-left: 15px;
+     }
+
+
+.boardArrowDown_false{
+    transform: rotate(180deg);
+    transition: all 350ms;
+}
+
+.boardArrowDown{
+    transition: all 350ms;
+}
+    }
+
+
+
+    @media(max-width:615px){
+	  .nav{
+          flex-direction: column;
+          align-items: flex-start;
+          
+      }
+        
+      .flex_menu{
+        display: flex;
+      }
+
+
+
+      .nav_false   .chrombtn_nav{
+        position: absolute;
+        top: 90%;
+    }
+    
+      .chrombtn_nav{
+          width: 90%;
+         position: absolute;
+         top: 60px;
+      }
+     
+
+     }
+
+
+
+   

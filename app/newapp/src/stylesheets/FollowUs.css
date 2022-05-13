@@ -1,0 +1,37 @@
+
+.Follow_div{
+    display: flex;
+    width: 100%;
+    border-bottom: #56575a 1px solid;
+    align-items: center;
+    margin: 15px auto;
+    max-width: 1600px;
+   
+}
+
+.follow_text{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: #202125;
+    font-family: "Google Sans",arial,sans-serif;
+    margin-left: 20px;
+}
+
+.Follow_linkYoutube{
+    color: #202125;
+    font-size: 40px;
+    margin: 10px 15px;
+}
+
+.Follow_linkTwitter{
+    color: #202125;
+    font-size: 30px;
+    margin: 10px 15px;
+}
+
+.Follow_linkFacebook{
+    color: #202125;
+    font-size: 27px;
+    margin: 10px 15px;
+}

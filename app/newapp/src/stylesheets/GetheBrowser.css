@@ -1,0 +1,154 @@
+.gettheBrowser_contener{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 40px;
+    transition: all ease 250ms;
+}
+
+.gettheBrowser_text_div{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.gettheBrowser_text_head{
+    color: #fff;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: "Google Sans",arial,sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.gettheBrowser_btn{
+    background-color: #fff;
+    color: #174ea6;
+    border: none;
+    font-size: 1rem;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: 500;
+    height: 46px;
+    outline: none;
+    padding: 0 24px;
+    transition: ease 1s;
+    align-items: center;
+    width: 250px;
+    margin: 0% auto;
+}
+.gettheBrowser_btn_bsArrowRight{
+    margin-bottom: -3px;
+}
+
+
+.gettheBrowser_img{
+    display: flex;
+    width: 70%;
+    overflow: hidden;
+    transition: ease 1s;
+}
+
+
+.homepage_privacy2{
+  width: 300px;
+  height: 600px;
+   transform: rotate(40deg) translate(180px, -210px);
+   margin: 50px;
+   transition: 1s;
+  
+}
+
+.pixel_tabletpng_up{
+    width: 600px;
+    height: 500px;
+    transform: rotate(40deg) translate(400px, 250px);   
+}
+
+
+.pixel_tabletpng_doun{
+    width: 400px;
+    transform: rotate(40deg) translate(-200px,-120px);
+}
+
+.anime1{
+    transform: rotate(40deg) translate(-600px,-620px);
+    transition: 1s;
+}
+.anime2{
+    transform: rotate(40deg) translate(9000px,-120px);
+    transition: 1s;
+}
+
+.anime3{
+    transform: rotate(40deg) translate(-800px,-420px);
+    transition: 1s;
+}
+
+
+
+@media(max-width:1020px){
+	
+   .gettheBrowser_contener{
+       flex-direction: column;
+       
+   }
+
+
+.gettheBrowser_text_div{
+    
+    width: 100%;
+  }
+
+
+.gettheBrowser_img{
+    width: 100%;
+    height: 500px;
+   
+}
+
+ .homepage_privacy2{
+    width: 200px;
+    height: 400px;
+     transform: rotate(40deg) translate(50px, -20px);
+     transition: 1s;
+     margin: 40px auto;
+  }
+  
+
+.pixel_tabletpng_up{
+    width: 400px;
+    height: 500px;
+    transform: rotate(40deg) translate(170px, -15px);
+    margin: 40px auto;
+    
+    
+}
+
+.pixel_tabletpng_doun{
+    display: none;
+}
+
+
+
+   }
+
+
+   @media(max-width:1020px){
+
+    .gettheBrowser_contener{
+        flex-direction: column;
+        width: 100%;
+    }
+ 
+ 
+ .gettheBrowser_text_div{
+     
+     width: 100%;
+   }
+ 
+   }
